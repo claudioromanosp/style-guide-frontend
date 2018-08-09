@@ -13,10 +13,10 @@
 
 ## HTML
 
-- Utilize somente um H1 por página.
-- Dê preferência em utilizar [Google Fonts](https://fonts.google.com/)
-- Use o elemento p para parágrafos.
-- Para estilização sempre priorize o uso de CSS. Por exemplo para aplicar bold em algum texto crie um span com font-weight desejado e aplique:
+- Utilize somente um **h1** por página.
+- Dê preferência em utilizar [Google Fonts](https://fonts.google.com/).
+- Use o elemento **p** para parágrafos.
+- Para estilização sempre priorize o uso de CSS. Por exemplo, para aplicar bold em algum texto crie um span com font-weight desejado e aplique:
 
 ```
 utilize <span class="bold">Texto em bold</span>
@@ -30,7 +30,7 @@ ao invés de <strong>Texto em bold</strong> ou <b>Texto em bold</b>
 - Tabelas não devem ser utilizadas para layouts de página. Sempre utilize thead e tbody.
 - Nunca use caixa-alta em tags.
 - Utilize as tags section, header, footer.
-- Não utilize a tag br para quebrar linhas.
+- Não utilize a tag **br** para quebrar linhas.
 - Todos os atributos das tags devem utilizar aspas duplas.
 - Sempre criar nome de classes e id's em inglês.
 - Sempre criar nome de arquivos em inglês.
