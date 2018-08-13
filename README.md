@@ -4,11 +4,11 @@
 
 - Todos os projetos devem ser responsivos.
 - Usar o conceito mobile-first.
-- Para validar nos diversos dispositivos e resoluções utilize [BrowserStack](https://www.browserstack.com/).
 - Sempre utilizar Html5 e CSS3.
 - Sempre comprima as imagens [Tinypng](https://tinypng.com/).
 - Sempre compacte os arquivos de produção: HTMLM, CSS, JS.
-- Caso utilize propriedades CSS modernas garanta que irá funcionar em todos os navegadores. Para isso visite [Can I Use](https://caniuse.com/) e se necessário utilize prefixos **-moz-, -webkit-, -ms-, -o-** .
+- Caso use propriedades CSS modernas garanta que irá funcionar em todos os navegadores. Para isso visite [Can I Use](https://caniuse.com/ ) e se necessário utilize prefixos **-moz-, -webkit-, -ms-, -o-** .
+- Todo arquivo deve ser codificado em UTF-8 para garantia de compatibilidade e facilidade de internacionalização.
 
 
 ## HTML
@@ -18,11 +18,13 @@
 - Use o elemento **p** para parágrafos.
 - Para estilização sempre priorize o uso de CSS. Por exemplo, para aplicar bold em algum texto crie um span com font-weight desejado e aplique:
 
+```html
+    // utilize
+    <span class="bold">Texto em bold</span>
 ```
-utilize <span class="bold">Texto em bold</span>
-```
-```sh
-ao invés de <strong>Texto em bold</strong> ou <b>Texto em bold</b>
+```html
+    // ao invés de
+    <strong>Texto em bold</strong> ou <b>Texto em bold</b>
 ```
 - Listas devem ser sempre representadas por uma ul ou ol, nunca um conjunto de div.
 - Use a tag label para rotular cada campo de um formulário, o atributo for deve associar o rótulo ao campo, para que os usuários possam clicar no rótulo e assim dar foco no campo associado. Utilize cursor: pointer no label.
@@ -49,16 +51,16 @@ ao invés de <strong>Texto em bold</strong> ou <b>Texto em bold</b>
 - Validar CSS e corrigir possíveis erros.
 
 ## JS
-- Insira o path dos scripts sempre antes do fechamento da tag body.
+- Insira o path dos seus scripts sempre antes do fechamento da tag body.
 - Comente seu código de forma clara e objetiva.
 - Nomes de variáveis, arrays, funções sempre em camelCase.
 
-**Certo:**
-```sh
-	var newVariable
+```javascript
+    // certo
+    var newVariable
 ```
-**`Errado:`**
-```sh
+```javascript
+    // errado
 	var new-variable
 	var new_variable
 	var newvariable
