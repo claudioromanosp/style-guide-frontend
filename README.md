@@ -1,9 +1,10 @@
-# Padrões de Desenvolvimento Front-end
+# Padrões de Desenvolvimento Front-end teste
 
 ## Práticas Gerais
 
 - Todos os projetos devem ser responsivos.
 - Usar o conceito mobile-first.
+- Para validar nos diversos dispositivos e resoluções utilize [BrowserStack](https://www.browserstack.com/).
 - Sempre utilizar Html5 e CSS3.
 - Sempre comprima as imagens [Tinypng](https://tinypng.com/).
 - Sempre compacte os arquivos de produção: HTMLM, CSS, JS.
