@@ -65,6 +65,7 @@
 	var new_variable
 	var newvariable
 ```
+Outras práticas **JS** podem ser adotadas neste excelente guia [Airbnb](https://github.com/claudioromanosp/javascript-style-guide).
 
 ## Lembre-se Sempre
 
