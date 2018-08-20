@@ -33,7 +33,7 @@
 - Quando utilizar a tag table sempre utilize thead e tbody.
 - Nunca use caixa-alta em tags.
 - Utilize as tags section, header, footer.
-- **Não utilize** a tag **<br />** para quebrar linhas.
+- **Não utilize** a tag **br* para quebrar linhas.
 - Todos os atributos das tags devem utilizar aspas duplas.
 - Sempre criar nome de classes e id's em inglês.
 - Sempre criar nome de arquivos em inglês.
