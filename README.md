@@ -15,7 +15,7 @@
 
 - Utilize somente um **h1** por página.
 - Dê preferência em utilizar [Google Fonts](https://fonts.google.com/).
-- Use o elemento **p** para parágrafos.
+- Sempre utilize o elemento **p** para parágrafos.
 - Para estilização sempre priorize o uso de CSS. Por exemplo, para aplicar bold em algum texto crie um span com font-weight desejado e aplique:
 
 ```html
@@ -33,7 +33,7 @@
 - Quando utilizar a tag table sempre utilize thead e tbody.
 - Nunca use caixa-alta em tags.
 - Utilize as tags section, header, footer.
-- Não utilize a tag **br** para quebrar linhas.
+- **Não utilize** a tag **<br />** para quebrar linhas.
 - Todos os atributos das tags devem utilizar aspas duplas.
 - Sempre criar nome de classes e id's em inglês.
 - Sempre criar nome de arquivos em inglês.
@@ -42,10 +42,10 @@
 
 ## CSS
 - Utilizar pré-processadores, como: Sass, Less, Stylus etc.
-- Nunca utilize estilo em linha (inline) na tag HTML.
+- Nunca utilize estilos inline na tag HTML.
 - Use um CSS reset para equalizar as diferenças entre os navegadores.
 - Estruture seu CSS de forma modularizada, pensando em reaproveitamento.
-- Evite qualificar seletores de forma explícita, exemplo: – .borda-do-menu.
+- Evite qualificar seletores de forma explícita, exemplo: – .borda-menu-topo.
 - Carregue seu CSS através de arquivos externos.
 - Use o elemento style, dentro do HTML, nunca @import.
 - Validar CSS e corrigir possíveis erros.
