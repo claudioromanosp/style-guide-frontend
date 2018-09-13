@@ -13,7 +13,8 @@
 
 ## HTML
 
-- Utilize somente um **h1** por página.
+- Utilize somente um **h1** por página (no título principal).
+- Jamais usar texto como imagem. Texto tem que ser texto.
 - Dê preferência em utilizar [Google Fonts](https://fonts.google.com/).
 - Sempre utilize o elemento **p** para parágrafos.
 - Para estilização sempre priorize o uso de CSS. Por exemplo, para aplicar bold em algum texto crie um span com font-weight desejado e aplique:
