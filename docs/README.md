@@ -1,13 +1,9 @@
-<<<<<<< HEAD
-# AO utlizar o github pages copie o conteúdo do readme para cá
-=======
-# Padrões de Desenvolvimento Front-end teste
+# Padrões de Desenvolvimento Front-end
 
 ## Práticas Gerais
 
 - Todos os projetos devem ser responsivos.
 - Usar o conceito mobile-first.
-- Para validar nos diversos dispositivos e resoluções utilize [BrowserStack](https://www.browserstack.com/).
 - Sempre utilizar Html5 e CSS3.
 - Sempre comprima as imagens [Tinypng](https://tinypng.com/).
 - Compacte os arquivos de produção: HTML, CSS, JS.
@@ -18,17 +14,19 @@
 
 ## HTML
 
-- Utilize somente um **h1** por página.
+- Utilize somente um **h1** por página (no título principal).
 - Utilize h2, h3, h4, h5, h6 em subtítulos de forma estruturada.
 - Dê preferência em utilizar [Google Fonts](https://fonts.google.com/).
 - Use o elemento **p** para parágrafos.
 - Para estilização priorize o uso de CSS. Por exemplo, para aplicar bold em algum texto crie um span com font-weight desejado e aplique:
 
+```html
+    // utilize
+    <span class="bold">Texto em bold</span>
 ```
-utilize <span class="bold">Texto em bold</span>
-```
-```sh
-ao invés de <strong>Texto em bold</strong> ou <b>Texto em bold</b>
+```html
+    // ao invés de
+    <strong>Texto em bold</strong> ou <b>Texto em bold</b>
 ```
 - Listas devem ser sempre representadas por uma ul ou ol, nunca um conjunto de div.
 - Use a tag label para rotular cada campo de um formulário, o atributo for deve associar o rótulo ao campo, para que os usuários possam clicar no rótulo e assim dar foco no campo associado. Utilize cursor: pointer no label.
@@ -37,7 +35,7 @@ ao invés de <strong>Texto em bold</strong> ou <b>Texto em bold</b>
 - Quando utilizar a tag table sempre utilize thead e tbody.
 - Nunca use caixa-alta em tags.
 - Utilize as tags section, header, footer.
-- Não utilize a tag **br** para quebrar linhas.
+- **Não utilize** a tag **br** para quebrar linhas.
 - Todos os atributos das tags devem utilizar aspas duplas.
 - Sempre criar nome de classes e id's em inglês.
 - Sempre criar nome de arquivos em inglês.
@@ -46,6 +44,7 @@ ao invés de <strong>Texto em bold</strong> ou <b>Texto em bold</b>
 - Na tag **img** inserir o atributo alt.
 
 ## CSS
+
 - Utilizar pré-processadores, como: Sass, Less, Stylus etc. Leia a documentação do pré-processador.
 - Nunca utilize estilo inline na tag HTML.
 - Use CSS reset para equalizar as diferenças entre os navegadores.
@@ -67,22 +66,24 @@ modal.css
 - Validar CSS e corrigir possíveis erros.
 
 ## JS
+
 - Insira o path dos scripts antes do fechamento da tag body.
 - Comente seu código de forma clara e objetiva.
 - Nomes de variáveis, arrays, funções sempre em camelCase.
 
-**Certo:**
-```sh
-	var newVariable
+```javascript
+    // certo
+    var newVariable
 ```
-**`Errado:`**
-```sh
+```javascript
+    // errado
 	var new-variable
 	var new_variable
 	var newvariable
 ```
+Outras práticas **JS** podem ser adotadas neste excelente guia [Airbnb](https://github.com/claudioromanosp/javascript-style-guide).
 
 ## Lembre-se
 
 Ao desenvolver, **seu código deve ser comunitário**. Outras pessoas, de diferentes níveis técnicos, precisarão dar manutenção no mesmo código, fazer novas implementações e ajustes. Por isso, preocupe-se em escrever um código legível, indentado, de fácil manutenção e com comentários relevantes, onde for necessário.
->>>>>>> dev
+
