@@ -50,19 +50,19 @@
 - Use CSS reset para equalizar as diferenças entre os navegadores.
 - Estruture seu CSS de forma modularizada, ex:
 ```
-variables.css
-color-variables.css 
-mixins.css
-forms.css
-footer.css
-header.css
-content.css
-sprites.css
-modal.css
+    variables.css
+    color-variables.css 
+    mixins.css
+    forms.css
+    footer.css
+    header.css
+    content.css
+    sprites.css
+    modal.css
 ```
 - Evite qualificar seletores de forma explícita, exemplo: – .borda-do-menu.
 - Carregue seu CSS através de arquivos externos.
-- Chame o elemento style, dentro do <head></head>, nunca @import.
+- Chame o elemento style, dentro da tag head, nunca @import.
 - Validar CSS e corrigir possíveis erros.
 
 ## JS
@@ -77,9 +77,9 @@ modal.css
 ```
 ```javascript
     // errado
-	var new-variable
-	var new_variable
-	var newvariable
+    var new-variable
+    var new_variable
+    var newvariable
 ```
 Outras práticas **JS** podem ser adotadas neste excelente guia [Airbnb](https://github.com/claudioromanosp/javascript-style-guide).
 
