@@ -37,11 +37,22 @@
 - Utilize as tags section, header, footer.
 - **Não utilize** a tag **br** para quebrar linhas.
 - Todos os atributos das tags devem utilizar aspas duplas.
-- Sempre criar nome de classes e id's em inglês.
-- Sempre criar nome de arquivos em inglês.
 - Usar hifen quando a classe tiver nome composto, por exemplo: header-menu.
 - Priorizar uso de classes no html, só utilize **Id's** caso haja interação com js.
 - Na tag **img** inserir o atributo alt.
+- Criar nome de classes e id's em inglês.
+- Criar nome de arquivos em inglês.
+- Ao criar nome de arquivo não deixar espaço vago nem camelCase:
+```
+    // certo
+    nome-do-arquivo
+```
+```
+    // errado
+    nome do arquivo
+    NomeDoArquivo
+    Nome Do Arquivo
+```
 
 ## CSS
 
