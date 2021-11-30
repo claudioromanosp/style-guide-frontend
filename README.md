@@ -40,15 +40,14 @@
 - Usar hifen quando a classe tiver nome composto, por exemplo: header-menu.
 - Priorizar uso de classes no html, só utilize **Id's** caso haja interação com js.
 - Na tag **img** inserir o atributo alt.
-- Criar nome de classes e id's em inglês.
 - Criar nome de arquivos em inglês.
 - Ao criar nome de arquivo não deixar espaço vago nem camelCase:
 ```
-    // certo
+    // bom
     nome-do-arquivo
 ```
 ```
-    // errado
+    // ruim
     nome do arquivo
     NomeDoArquivo
     Nome Do Arquivo
@@ -73,8 +72,6 @@
 ```
 - Evite qualificar seletores de forma explícita, exemplo: – .borda-do-menu.
 - Carregue seu CSS através de arquivos externos.
-- Chame o elemento style, dentro da tag head, nunca @import.
-- Validar CSS e corrigir possíveis erros.
 
 ## JS
 
@@ -83,11 +80,11 @@
 - Nomes de variáveis, arrays, funções sempre em camelCase.
 
 ```javascript
-    // certo
+    // bom
     var newVariable
 ```
 ```javascript
-    // errado
+    // ruim
     var new-variable
     var new_variable
     var newvariable
