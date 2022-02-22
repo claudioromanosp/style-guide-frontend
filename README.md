@@ -70,24 +70,24 @@
     sprites.css
     modal.css
 ```
-- Evite qualificar seletores de forma explícita, exemplo: – .borda-do-menu.
+- Evite qualificar seletores de forma explícita, exemplo: .borda-do-menu.
 - Carregue seu CSS através de arquivos externos.
 
 ## JS
 
 - Insira o path dos scripts antes do fechamento da tag body.
 - Comente seu código de forma clara e objetiva.
-- Nomes de variáveis, arrays, funções sempre em camelCase.
+- Nomes de variáveis, arrays, funções em camelCase ou underline.
 
 ```javascript
     // bom
-    var newVariable
+    let newVariable
+    let new_variable
 ```
 ```javascript
     // ruim
-    var new-variable
-    var new_variable
-    var newvariable
+    let new-variable
+    let newvariable
 ```
 Outras práticas **JS** podem ser adotadas neste excelente guia [Airbnb](https://github.com/claudioromanosp/javascript-style-guide).
 
